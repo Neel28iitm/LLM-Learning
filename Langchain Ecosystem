@@ -1,0 +1,4 @@
+Data Ingestion: Here we load the data from different sources, it may be .txt file, pdf file, web, wikipedia etc.
+Data Transformation: We basically split the data into chunks (text chunks, document chunks) or providing chunk overlap so that we can easily use our LLM models.
+Embeddings: Here we basically do text embeddings, we will take the entire text and convert it into vectors.
+Vector store database: storing the vectors that we actually get from embeddings.
